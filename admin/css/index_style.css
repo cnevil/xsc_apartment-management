@@ -1,0 +1,134 @@
+@CHARSET "UTF-8";
+body{
+padding:0px;
+margin:0px;
+background-color:#1D3647;
+}
+a {
+ color:black;
+ text-align:center;
+}
+
+a:link  {
+ color:blue;
+ text-decoration:none;
+}
+a:visited  {
+ color:blue;
+ text-decoration:none;
+}
+a:hover  {
+ color:red;
+ text-decoration:underline;
+
+}
+#main{
+padding:0px;
+width:100%;
+margin:0 auto;
+min-width:1000px;
+}
+#top{
+	height:41px;
+	width:100%;
+    background-image: url(../images/login-top-bg.gif);
+	background-repeat: repeat-x;
+}
+#center{
+    height:532px;
+    width:100%;
+	background-image: url(../images/login_bg.jpg);
+	background-repeat: repeat-x;
+
+}
+#center_left{
+    height:532px;
+    width:35%;
+	background-image: url(../images/login-content-bg.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+    padding-left:10%;
+    padding-right:5%;
+    float:left;
+
+}
+#center_left_img{
+    width:100%;
+    margin-top:142px;
+    height:62px;
+    text-align:right;
+}
+#center_left_content{
+	margin-top:20px;
+    width:379px;
+    height:88px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	color: #666666;
+	float:right;
+
+}
+#center_left_content p{
+    padding:0px;
+    margin:0px;
+	line-height: 25px;
+
+}
+#center_left_lxfs{
+
+        width:379px;
+        height:88px;
+		font-size: 12px;
+		color: #666666;
+	    font-family: Arial, Helvetica, sans-serif;
+
+	    float:right;
+}
+
+#center_right{
+    height:532px;
+    padding-left:5%;
+    width:30%;
+    float:left;
+
+}
+#center_right_img{
+    width:100%;
+    margin-top:174px;
+    height:30px;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+	color: #666666;
+	font-weight: bold;
+}
+#center_right_content{
+	margin-top:20px;
+    width:379px;
+    height:228px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	color: #666666;
+	float:right;
+
+
+}
+#center_right_content p{
+    padding:0px;
+    margin-bottom:5px;
+    margin-top:0px;
+	line-height: 25px;
+
+}
+#input_k{
+	width:200px;
+}
+#bottom{
+		background-image: url(../images/login-buttom-bg.gif);
+	    background-repeat: repeat-x;
+	    height:20px;
+        width:100%;
+}

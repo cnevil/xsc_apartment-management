@@ -1,0 +1,150 @@
+@CHARSET "UTF-8";
+body {
+	background-color:#F7F8F9;
+    margin:0px;
+    padding:0px;
+}
+#main{
+	padding:0px;
+	width:100%;
+	margin:0 auto;
+	min-width:1060px;
+}
+#top_left{
+	width:17px;
+    background-image: url(../images/mail_leftbg.gif);
+	background-repeat: repeat-x;
+	float:left;
+}
+#top_center{
+	width:100%;
+	height:29px;
+    background-image: url(../images/content-bg.gif);
+	background-repeat: repeat-x;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+#top_left img{
+	display:block;
+	margin:0px;
+	padding:0px;
+	width:17px;
+	height:29px;
+}
+#top_right{
+	width:16px;
+    background-image: url(../images/mail_rightbg.gif);
+	background-repeat: repeat-x;
+	float:right;
+}
+#top_title {
+	font-size: 12px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #000000;
+	width:85px;
+	background-image: url(../images/top_bt.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	text-indent: 15px;
+	padding-top: 5px;
+	float:left;
+}
+
+#top_right img{
+	display:block;
+	margin:0px;
+	padding:0px;
+	width:16px;
+	height:29px;
+}
+#middle_center{
+	background-color:#F7F8F9;
+	float:left;
+	width:100%;
+	margin:0px;
+	padding:0px;
+
+
+}
+#main_content{
+	float:left;
+	width:96%;
+	height:auto;
+	margin:0;
+	padding:0px;
+}
+#middle_left{
+	width:17px;
+	/*height:800px;设置了最小高度,没有的话会自适应*/
+    background-image: url(../images/mail_leftbg.gif);
+	background-repeat: repeat;
+	float:left;
+}
+#middle_right{
+	width:16px;
+	/*height:800px;设置了最小高度,没有的话会自适应*/
+    background-image: url(../images/mail_rightbg.gif);
+	background-repeat: repeat;
+	float:right;
+}
+#bottom_left{
+	width:17px;
+	height:17px;
+    background-image: url(../images/mail_leftbg.gif);
+	background-repeat: no-repeat;
+	float:left;
+}
+#bottom_center{
+	width:100%;
+	height:17px;
+    background-image: url(../images/buttom_bgs.gif);
+	background-repeat: repeat-x;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+#bottom_left img{
+	display:block;
+	margin:0px;
+	padding:0px;
+	width:17px;
+	height:17px;
+}
+#bottom_right{
+	width:16px;
+    background-image: url(../images/mail_rightbg.gif);
+	background-repeat: no-repeat;
+	float:right;
+}
+#bottom_right img{
+	display:block;
+	margin:0px;
+	padding:0px;
+	width:16px;
+	height:17px;
+}
+#content{
+	margin-top:20px;
+	width:1040px;
+
+}
+#add_upload
+{
+	font-size:14px;
+
+
+}
+#text{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	display:none;
+	rows：0;
+	cols:0;
+}
+#add_tm{
+	width:540px;
+
+}
